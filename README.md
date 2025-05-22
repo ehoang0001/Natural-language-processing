@@ -16,26 +16,16 @@ Use your knowledge of object-oriented programming, ArrayLists, the String class,
 
 ## UML Diagram
 
-Put and image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one word, otherwise it might not properly get display on this README.
-
-![UML Diagram for my project](nameOfImageFileHere.png)
+![UML Diagram for my project](uml.png)
 
 ## Video
 
-Record a short video of your project to display here on your README. You can do this by:
 
-- Screen record your project running on Code.org.
-- Upload that recording to YouTube.
-- Take a thumbnail for your image.
-- Upload the thumbnail image to your repo.
-- Use the following markdown code:
-
-[![Thumbnail for my projet](nameOfThumbnail.png)](youtube-URL-here)
+[![Thumbnail for my projet](screenshot.png.png)](https://drive.google.com/file/d/1-l1vUaBwMXvmCuerwtYM9-cZx_FL_amZ/view?usp=sharing)
 
 ## Project Description
 
-Write a description of the goal and/or problem that your application. Include descriptions of what text is being analyzed, either if its text files you are using to interpret text an how the user interacts with your project.
+In this project I wanted to create a program that could analyze a sentence or multiple sentences for a specific/objective characteristic (not something like nouns which can vary). I decided on names because I knew I could use sentence structure or datasets of popular names to allow my program to function correctly majority of the time. My program iterates through my dataset of names and searches to see if that name is found in the user-inputted sentence.
 
 ## NLP Techniques
-
-Write a description of what natural lanugage technique (NLP) you implemented in your project. State which methods in your project are associated with this, and a brief explanation of how those methods word and how they are necessary in the NLP technique. 
+My project uses Named-Entity Recognition (NER) to identify all names located in the user-inputted text. My findNames() method  uses NER to located names that match my dataset. My findAges() method also uses a variation of NER, however, rather than searching nouns or names it searches for numbers in the text.
